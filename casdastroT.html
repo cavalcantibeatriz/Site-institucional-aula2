@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN - SPTECH</title>
+    <title>CADASTRO - SPTECH</title>
     <link rel="stylesheet" href="Estilos.css">
     <link rel="stylesheet" href="formularioEstilo.css">
-    
+    <link rel="stylesheet" href="cadastro.css">
 
 </head>
 
@@ -17,29 +17,35 @@
         <div class="container">
             <h1>AcquaTec</h1>
             <ul class="navbar">
-                <li><a href="Index.html">Inicial</a></li>
+                <li><a href="Index.html" >Inicial</a></li>
                 <li>Simulador</li>
                 <li>|</li>
-                <li id="aqui">Login</li>
-                <li> <a href="casdastroT.html">Cadastro</a></li>
+                <li><a href="Login.html" >Login</a></li>
+                <li id="aqui">Cadastro</li>
             </ul>
         </div>
     </div>
     
     <div class="banner">
         <div class="container">
-        <div class="caixa_formulario">
-            <h1>Olá de volta!</h1>
+        <div class="caixa_cadastro">
+            <h1>Bem vindo!</h1>
             <div class="formulario">
 
+                <span>Nome:</span>
+                <input id="email_input" type="text" placeholder="Seu nome">
+
                 <span>E-mail:</span>
-                <input id="email_input" type="email" placeholder="Seu e-mail">
+                <input id="email_input" type="email" placeholder="seuemail@gamil.com">
 
 
                 <span>Senha:</span>
                 <input id="senha_input" type="password" placeholder="*********">
 
-                <button >Entrar</button>
+                <span>Confirme a senha:</span>
+                <input id="senha_input" type="password" placeholder="*********">
+
+                <button >Cadastrar</button>
             </div>
         </div>
 

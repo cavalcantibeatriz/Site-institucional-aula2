@@ -1,7 +1,7 @@
-.caixa_formulario {
+.caixa_cadastro {
     background: white;
     width: 400px;
-    height: 300px;
+    height: 450px;
     color: palevioletred;
     display: flex;
     flex-direction: column;
@@ -10,16 +10,16 @@
     border-radius: 5px;
 }
 
-.caixa_formulario h1 {
+.caixa_cadastro h1 {
     font-size: 30px;
 }
-.formulario{
+.cadastro{
 display: flex;
 flex-direction: column;
 width: 200px;
 }
 
-.formulario button{
+.cadastro button{
 margin-top: 10px;
 background:rgb(223, 62, 62);
 color: aliceblue;
@@ -31,7 +31,7 @@ align-self: center;
 
 }
 
-.formulario input{
+.cadastro input{
     padding: 10px 15px;
     text-align: center;
     border: 2px solid  black;
@@ -40,8 +40,17 @@ align-self: center;
    
 }
 
-.formulario span{
+.banner .container{
+    height: 550px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    
+    }
+
+.cadastro span{
 font-size: 10px;
+
 }
 .header ul #aqui{
     font-weight: 1000;
@@ -53,19 +62,3 @@ a{
     color:#e3b062
 
 }
-.banner {
-  
-    color: white;
-    padding: 40px 0;
-    height: 550px;
-    background-image: url("assets/imgs/bg-jelly-fish-para_outras_pags.png");
-    background-size: cover;
-
-}
-.banner .container{
-    height: 550px;
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    
-    }
