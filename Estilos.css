@@ -78,7 +78,7 @@ text-align: center;
 }
 
 .footer{
-    background-color: brown;
+    background-color: blue;
     height: 150px;
     color: #fff;
     display: flex;
@@ -87,5 +87,16 @@ text-align: center;
 .footer .container{
 display: flex;
 justify-content: center;
+
+}
+.header ul #aqui{
+font-weight: 1000;
+color: aqua;
+
+}
+
+a{
+    text-decoration:none ;
+    color:#e3b062
 
 }

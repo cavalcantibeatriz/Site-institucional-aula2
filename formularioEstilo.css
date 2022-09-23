@@ -1,0 +1,55 @@
+.caixa_formulario {
+    background: white;
+    width: 400px;
+    height: 300px;
+    color: palevioletred;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.caixa_formulario h1 {
+    font-size: 30px;
+}
+.formulario{
+display: flex;
+flex-direction: column;
+width: 200px;
+}
+
+.formulario button{
+margin-top: 10px;
+background:rgb(223, 62, 62);
+color: aliceblue;
+padding: 10px 15px;
+border: none;
+border-radius: 10px ;
+width: 120px;
+align-self: center;
+
+}
+
+.formulario input{
+    padding: 10px 15px;
+    text-align: center;
+    border: 2px solid  black;
+    border-radius: 10px;
+    font-size: 20px;
+   
+}
+
+.formulario span{
+font-size: 20px;
+}
+.header ul #aqui{
+    font-weight: 1000;
+    color: aqua;
+    
+}
+a{
+    text-decoration:none ;
+    color:#e3b062
+
+}
